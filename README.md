@@ -12,12 +12,6 @@
     python -m unittest discover tests/
     ```
 
-3. Generate Allure report:
-    ```bash
-    pytest --alluredir=./allure-results
-    allure serve ./allure-results
-    ```
-
 ## Structure
 
 - **tests/**: Contains all the test cases for API endpoints.
