@@ -21,7 +21,6 @@
 ## Advantages
 
 - **Comprehensive Coverage**: All API endpoints are tested.
-- **Visualization**: Allure provides clear, actionable reports.
 
 ## Disadvantages
 
