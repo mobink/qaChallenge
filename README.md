@@ -9,7 +9,7 @@
 
 2. Run the tests:
     ```bash
-    python -m unittest discover tests/
+    python -m unittest -m requests discover tests/
     ```
 
 3. Generate Allure report:
@@ -31,4 +31,4 @@
 
 ## Disadvantages
 
-- **Overhead**: Maintaining detailed reports and logs can slow down the pipeline.
+- **Overhead**: Maintaining detailed reports and logs can slow down the test execution.
