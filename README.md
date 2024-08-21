@@ -9,7 +9,7 @@
 
 2. Run the tests:
     ```bash
-    python -m unittest -m requests discover tests/
+    python -m unittest discover tests/
     ```
 
 3. Generate Allure report:
@@ -18,7 +18,7 @@
     allure serve ./allure-results
     ```
 
-## Pipeline Structure
+## Structure
 
 - **tests/**: Contains all the test cases for API endpoints.
 - **allure-results/**: Directory for storing Allure reports.
